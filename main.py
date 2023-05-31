@@ -2,7 +2,8 @@ import asyncio
 import random
 
 import uvicorn
-from fastapi import FastAPI, BackgroundTasks
+from fastapi import FastAPI
+from fastapi import BackgroundTasks
 
 app = FastAPI()
 jobs = {}
