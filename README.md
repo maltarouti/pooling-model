@@ -1,4 +1,4 @@
-# short-pooling
+# Pooling Model
 A very simple python API to apply short-pooling and long-pooling
 
 # How to run?
