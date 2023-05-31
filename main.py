@@ -36,6 +36,8 @@ async def check_status(job_id: int) -> dict:
 async def update_job_status(job_id: int):
     while jobs[job_id]["job_status"] != 100:
         jobs[job_id]["job_status"] += 5
+        if jobs[job_id]["job_status"] == 100:
+            jobs[job_id]["status"] = "completed"
         await asyncio.sleep(1)
 
 
