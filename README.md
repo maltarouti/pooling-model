@@ -1,5 +1,5 @@
 # Pooling Model
-A very simple python API to apply short-pooling and long-pooling
+A very simple python app to apply short-pooling and long-pooling
 
 # How to run?
 * Install python in your machine
